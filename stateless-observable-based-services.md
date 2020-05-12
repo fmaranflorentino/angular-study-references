@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
   constructor(coursesService: UsersServices) {}
 
   ngOnInit(): void {
-    const users$ = this.usersService.loadAllCourses();
+    const users$ = this.usersService.loadAllUsers();
 
     this.activeUsers$ = users$.pipe(
       map((users) => courses.filter((user) => user.active))
