@@ -48,3 +48,9 @@ When we use async pipe it unsubscribe the observable automatically when destroye
 ```html
 <ng-container *ngIf="let user of (activeUsers$ | async)"></ng-container>
 ```
+
+If you need tou input the data you can follow next example
+
+```html
+<users-list [users]="activeUsers$ | async"></users-list>
+```
