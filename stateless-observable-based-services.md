@@ -20,7 +20,7 @@ export class UsersService {
 }
 ```
 
-## Consuming Observable-bases services using Angular async pipe
+## Consuming Observable-based services using Angular async pipe
 
 In your component you can implement the following pattern
 
