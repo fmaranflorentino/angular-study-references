@@ -1,4 +1,4 @@
-## Global loading service - Reactive Aprroach
+## Global loading service - Reactive Approach
 
 Create a `loading.service.ts` with the following code
 
